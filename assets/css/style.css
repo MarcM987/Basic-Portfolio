@@ -10,7 +10,7 @@ html,body{
 
 body{
     display: block;
-    background-color: white;
+    background-color: #ffffff;
     background-image: url("../images/herringbone.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
@@ -21,7 +21,7 @@ header{
     display: block;
     background-color: #4aaaa5;
     padding: 20px;
-    color: white;
+    color: #ffffff;
     width: 25%;
     /* float: left; */
 }
@@ -61,7 +61,7 @@ h1{
 }
 
 article{
-    border-top: solid 1px #777777;
+    border-top: solid 1px #dddddd;
     text-align: left;
     padding-top: 10px;
 }
@@ -76,11 +76,11 @@ label{
 }
 input[type=submit]{
     margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-align: center;
+    padding: 10px;
     background-color: #4aaaa5;
     border: none;
-    color: white;
+    color: #ffffff;
     width: 75px;
 
 }
@@ -129,10 +129,11 @@ footer{
 .wrapper4{
     display: flex;
     width: 960px;
-    background-color: white;
+    background-color: #ffffff;
     flex-direction: column;
     min-height: 500px;
     padding: 20px;
+    border-bottom: solid 1px #dddddd;
 }
 
 .text-block {
@@ -141,7 +142,7 @@ footer{
     text-align: center;
     font-size: 12px;
     background-color:#4aaaa5;
-    color: white;
+    color: #ffffff;
     padding: 10px;
     width:150px;
   }
@@ -153,7 +154,8 @@ textarea{
 }
 
 #white{
-    background-color: white;
+    background-color: #ffffff;
+    border-bottom: solid 2px #cccccc;
 }
 
 .footer,
