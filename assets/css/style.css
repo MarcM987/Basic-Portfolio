@@ -23,14 +23,14 @@ header{
     padding: 20px;
     color: white;
     width: 25%;
-    float: left;
+    /* float: left; */
 }
 
 nav{
     display: block;
     padding: 20px;
     margin-left: 20px;
-    float: right;
+    /* float: right; */
 }
 
 a{
@@ -69,6 +69,7 @@ article{
 form, label, input{
     float: left;
     text-align: left;
+    width: 100%;
     }
 label{
     padding-top: 10px;
@@ -80,13 +81,17 @@ input[type=submit]{
     background-color: #4aaaa5;
     border: none;
     color: white;
+    width: 75px;
 
 }
 
 .gallery{
-    float: left;
-    position: absolute;
-}
+    /* float: left;
+    position: absolute;*/
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}  
 
 p{
     text-align: left;
@@ -102,13 +107,53 @@ footer{
 
 .wrapper{
     margin: auto;
-    width: 960px;
+    width: 100%;
+    /* width: 960px; */
     min-height: 100%;
     margin-bottom: -50px;
 }
 .wrapper2{
-    display: block;
-    background-color: black;
+    display: flex;
+    justify-content: center; 
+    /* background-color: white; */
+    /* border-bottom: solid 1px #777777; */
+    width: 100%;
+}
+
+.wrapper3{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    
+}
+.wrapper4{
+    display: flex;
+    width: 960px;
+    background-color: white;
+    flex-direction: column;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+    background-color:#4aaaa5;
+    color: white;
+    padding: 10px;
+    width:150px;
+  }
+
+textarea{
+    text-align: left;
+    width: 100%;
+    height: 225px;
+}
+
+#white{
+    background-color: white;
 }
 
 .footer,
